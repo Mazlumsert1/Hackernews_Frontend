@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa69d520-2779-45fb-ad27-887c293cc789" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/comment.html" afterPath="$PROJECT_DIR$/html/comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/story.html" afterPath="$PROJECT_DIR$/html/story.html" />
     </list>
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comment.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/comment.html">
+      <file leaf-file-name="story.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/story.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -55,8 +53,8 @@
         <option value="$PROJECT_DIR$/html/navbar.html" />
         <option value="$PROJECT_DIR$/js/navbar.js" />
         <option value="$PROJECT_DIR$/html/js/navbar.js" />
-        <option value="$PROJECT_DIR$/html/story.html" />
         <option value="$PROJECT_DIR$/html/comment.html" />
+        <option value="$PROJECT_DIR$/html/story.html" />
       </list>
     </option>
   </component>
@@ -156,12 +154,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514050265001</updated>
-      <workItem from="1514050266175" duration="4666000" />
+      <workItem from="1514050266175" duration="4862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4666000" />
+    <option name="totallyTimeSpent" value="4862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="6" />
@@ -275,25 +273,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/story.html">
+    <entry file="file://$PROJECT_DIR$/html/comment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
-            <marker date="1514057506207" expanded="true" signature="31:661" ph="..." />
-            <marker date="1514057506207" expanded="true" signature="38:511" ph="..." />
-            <marker date="1514057506207" expanded="true" signature="254:372" ph="..." />
-            <marker date="1514057506207" expanded="true" signature="518:653" ph="..." />
-            <marker date="1514057506207" expanded="true" signature="567:574" ph="..." />
-            <marker date="1514057506207" expanded="true" signature="605:616" ph="..." />
+            <marker date="1514057593473" expanded="true" signature="31:637" ph="..." />
+            <marker date="1514057593473" expanded="true" signature="38:488" ph="..." />
+            <marker date="1514057593473" expanded="true" signature="255:373" ph="..." />
+            <marker date="1514057593473" expanded="true" signature="495:629" ph="..." />
+            <marker date="1514057593473" expanded="true" signature="582:592" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/comment.html">
+    <entry file="file://$PROJECT_DIR$/html/story.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>
