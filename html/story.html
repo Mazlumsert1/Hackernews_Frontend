@@ -6,7 +6,7 @@
     <!--------- BOOTSTRAP -------->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-     <!---------- JQuery ----------->
+    <!---------- JQuery ----------->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
@@ -19,16 +19,30 @@
 <!--end of Navigation bar-->
 
 <div id="app">
-    <tr>
-        <th>User</th>
-        <th>Title</th>
-        <th>Text</th>
-        <th>Hanesst_id</th>
-        <th>Url</th>
-        <th>Points</th>
-        <th>Is_spam</th>
-        <th>Type</th>
-    </tr>
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>User</th>
+            <th>Title</th>
+            <th>Text</th>
+            <th>Hanesst_id</th>
+            <th>Url</th>
+            <th>Points</th>
+            <th>Is_spam</th>
+            <th>Type</th>
+        </tr>
+
+        <tr>
+            <td style="color:#1496ed">{{result.user}}</td>
+            <td>{{result.title}}</td>
+            <td>{{result.text}}</td>
+            <td>{{result.hanesst_id}}</td>
+            <td>{{result.url}}</td>
+            <td>{{result.points}}</td>
+            <td>{{result.is_spam}}</td>
+            <td>{{result.type}}</td>
+        </tr>
+
+    </table>
 </div>
 </body>
 </html>
