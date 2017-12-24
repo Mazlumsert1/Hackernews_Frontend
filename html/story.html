@@ -54,21 +54,21 @@
         created: function () {
             this.loadData();
         },
-        methods:{
-            loadData: function (){
+        methods: {
+            loadData: function () {
                 this.results = 'Loading ...';
                 var vm = this;
                 axios.get('http://165.227.136.184/api/stories')
-                    .then(function(response){
+                    .then(function (response) {
                         vm.results = response.data.data;
                         console.log(response.data.data);
                     })
-
+                    .catch(function (error) {
+                        vm.status = ' An error occured' + error;
+                    })
             }
         }
     });
-
 </script>
-
 </body>
 </html>
