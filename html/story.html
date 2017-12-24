@@ -20,7 +20,6 @@
 <script src="../js/navbar.js">
 </script>
 <!--end of Navigation bar-->
-
 <div id="app">
     <table class="table table-bordered table-hover">
         <tr>
@@ -56,7 +55,13 @@
         created: function () {
             this.loadData();
         },
-        
+        methods:{
+            loadData: function (){
+                this.result = 'Loading ...';
+                var vm = this;
+                axios.get('http://165.227.136.184/api/stories')
+            }
+        }
     })
 
 </script>
