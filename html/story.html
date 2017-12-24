@@ -32,7 +32,7 @@
             <th>Is_spam</th>
             <th>Type</th>
         </tr>
-        <tr>
+        <tr v-for="result in results">
             <td style="color:#1496ed">{{result.user}}</td>
             <td>{{result.title}}</td>
             <td>{{result.text}}</td>
@@ -46,8 +46,7 @@
 </div>
 
 <script>
-
-    var vm = new({
+    var vm = new Vue({
         el: '#app',
         data: {
             results: ''
@@ -57,12 +56,17 @@
         },
         methods:{
             loadData: function (){
-                this.result = 'Loading ...';
+                this.results = 'Loading ...';
                 var vm = this;
                 axios.get('http://165.227.136.184/api/stories')
+                    .then(function(response){
+                        vm.results = response.data.data;
+                        console.log(response.data.data);
+                    })
+
             }
         }
-    })
+    });
 
 </script>
 
