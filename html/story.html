@@ -8,7 +8,10 @@
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!---------- JQuery ----------->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
+    <!----------- VUE ------------>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
+    <!---------- AXIOS ----------->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
 <!--Navigation bar-->
@@ -30,7 +33,6 @@
             <th>Is_spam</th>
             <th>Type</th>
         </tr>
-
         <tr>
             <td style="color:#1496ed">{{result.user}}</td>
             <td>{{result.title}}</td>
@@ -41,8 +43,23 @@
             <td>{{result.is_spam}}</td>
             <td>{{result.type}}</td>
         </tr>
-
     </table>
 </div>
+
+<script>
+
+    var vm = new({
+        el: '#app',
+        data: {
+            results: ''
+        },
+        created: function () {
+            this.loadData();
+        },
+        
+    })
+
+</script>
+
 </body>
 </html>
