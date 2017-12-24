@@ -44,7 +44,6 @@
         </tr>
     </table>
 </div>
-
 <script>
     var vm = new Vue({
         el: '#app',
@@ -64,7 +63,7 @@
                         console.log(response.data.data);
                     })
                     .catch(function (error) {
-                        vm.status = ' An error occured' + error;
+                        vm.status = 'An error occured' + error;
                     })
             }
         }

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa69d520-2779-45fb-ad27-887c293cc789" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/comment.html" afterPath="$PROJECT_DIR$/html/comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/story.html" afterPath="$PROJECT_DIR$/html/story.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="story.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/story.html">
+      <file leaf-file-name="comment.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/comment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="276">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +57,8 @@
         <option value="$PROJECT_DIR$/html/navbar.html" />
         <option value="$PROJECT_DIR$/js/navbar.js" />
         <option value="$PROJECT_DIR$/html/js/navbar.js" />
-        <option value="$PROJECT_DIR$/html/comment.html" />
         <option value="$PROJECT_DIR$/html/story.html" />
+        <option value="$PROJECT_DIR$/html/comment.html" />
       </list>
     </option>
   </component>
@@ -158,12 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514050265001</updated>
-      <workItem from="1514050266175" duration="7642000" />
+      <workItem from="1514050266175" duration="8581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7642000" />
+    <option name="totallyTimeSpent" value="8581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="22" width="720" height="814" extended-state="0" />
@@ -247,20 +248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <marker date="1514057593473" expanded="true" signature="31:637" ph="..." />
-            <marker date="1514057593473" expanded="true" signature="38:488" ph="..." />
-            <marker date="1514057593473" expanded="true" signature="255:373" ph="..." />
-            <marker date="1514057593473" expanded="true" signature="495:629" ph="..." />
-            <marker date="1514057593473" expanded="true" signature="582:592" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -293,12 +280,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/story.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="184">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1514145391981" expanded="true" signature="31:2357" ph="..." />
+            <marker date="1514145391981" expanded="false" signature="38:762" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="254:372" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="769:2349" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="818:825" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="856:866" ph="..." />
+            <marker date="1514145391981" expanded="false" signature="910:1611" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="963:1604" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="976:1209" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="1248:1591" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="1273:1286" ph="..." />
+            <marker date="1514145391981" expanded="false" signature="1620:2341" ph="..." />
+            <marker date="1514145391981" expanded="true" signature="1643:2330" ph="{&quot;el&quot;: '##app'...}" />
+            <marker date="1514145391981" expanded="true" signature="1679:1714" ph="{&quot;results&quot;: ''...}" />
+            <marker date="1514145391981" expanded="true" signature="1745:1785" ph="{...}" />
+            <marker date="1514145391981" expanded="true" signature="1804:2324" ph="{...}" />
+            <marker date="1514145391981" expanded="true" signature="1840:2314" ph="{...}" />
+            <marker date="1514145391981" expanded="true" signature="2029:2166" ph="{...}" />
+            <marker date="1514145391981" expanded="true" signature="2212:2299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
