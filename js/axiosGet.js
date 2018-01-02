@@ -9,7 +9,6 @@ function axiosGet(url) {
         })
 }
 
-
 var vm = new Vue({
     el: '#app',
     data: {

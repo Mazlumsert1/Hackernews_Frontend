@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa69d520-2779-45fb-ad27-887c293cc789" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/globalAxiosGet.js" afterPath="$PROJECT_DIR$/js/axiosGet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hackernews_Frontend.iml" afterPath="$PROJECT_DIR$/.idea/Hackernews_Frontend.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/axiosPost.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/comment.html" afterPath="$PROJECT_DIR$/html/comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/story.html" afterPath="$PROJECT_DIR$/html/story.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/navbar.html" afterPath="$PROJECT_DIR$/html/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/axiosGet.js" afterPath="$PROJECT_DIR$/js/axiosGet.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,15 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comment.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/comment.html">
+      <file leaf-file-name="axiosPost.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/axiosPost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,13 +52,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/navbar.css" />
         <option value="$PROJECT_DIR$/html/login.html" />
-        <option value="$PROJECT_DIR$/html/navbar.html" />
         <option value="$PROJECT_DIR$/js/navbar.js" />
         <option value="$PROJECT_DIR$/html/js/navbar.js" />
         <option value="$PROJECT_DIR$/html/globalAxiosGet.js" />
         <option value="$PROJECT_DIR$/html/comment.html" />
         <option value="$PROJECT_DIR$/html/story.html" />
         <option value="$PROJECT_DIR$/html/axiosGet.js" />
+        <option value="$PROJECT_DIR$/html/navbar.html" />
+        <option value="$PROJECT_DIR$/js/axiosGet.js" />
+        <option value="$PROJECT_DIR$/js/axiosPost.js" />
       </list>
     </option>
   </component>
@@ -120,6 +116,11 @@
               <item name="Hackernews_Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hackernews_Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Hackernews_Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hackernews_Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Hackernews_Frontend" type="b2602c69:ProjectViewProjectNode" />
@@ -186,18 +187,18 @@
       <workItem from="1514568044888" duration="457000" />
       <workItem from="1514568722356" duration="657000" />
       <workItem from="1514678074756" duration="2823000" />
-      <workItem from="1514912858213" duration="2735000" />
+      <workItem from="1514912858213" duration="4461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17442000" />
+    <option name="totallyTimeSpent" value="19168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="22" width="720" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25138888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27638888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -232,14 +233,14 @@
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1514921954513" expanded="true" signature="23:267" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="85:170" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="204:264" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="287:573" ph="{&quot;el&quot;: '##app'...}" />
-            <marker date="1514921954513" expanded="true" signature="315:342" ph="{&quot;results&quot;: ''...}" />
-            <marker date="1514921954513" expanded="true" signature="369:401" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="416:571" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="448:565" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="23:267" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="85:170" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="204:264" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="286:572" ph="{&quot;el&quot;: '##app'...}" />
+            <marker date="1514931317957" expanded="true" signature="314:341" ph="{&quot;results&quot;: ''...}" />
+            <marker date="1514931317957" expanded="true" signature="368:400" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="415:570" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="447:564" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -266,8 +267,17 @@
         <state relative-caret-position="870">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1514923068878" expanded="true" signature="31:1289" ph="..." />
+            <marker date="1514923068878" expanded="false" signature="38:740" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="255:373" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="747:1281" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="834:844" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="888:1156" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="937:1149" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="947:1004" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1039:1140" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1060:1073" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1165:1231" ph="..." />
           </folding>
         </state>
       </provider>
@@ -277,8 +287,17 @@
         <state relative-caret-position="1334">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1514923068878" expanded="true" signature="31:1289" ph="..." />
+            <marker date="1514923068878" expanded="false" signature="38:740" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="255:373" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="747:1281" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="834:844" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="888:1156" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="937:1149" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="947:1004" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1039:1140" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1060:1073" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1165:1231" ph="..." />
           </folding>
         </state>
       </provider>
@@ -288,8 +307,17 @@
         <state relative-caret-position="1334">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1514923068878" expanded="true" signature="31:1289" ph="..." />
+            <marker date="1514923068878" expanded="false" signature="38:740" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="255:373" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="747:1281" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="834:844" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="888:1156" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="937:1149" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="947:1004" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1039:1140" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1060:1073" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1165:1231" ph="..." />
           </folding>
         </state>
       </provider>
@@ -309,13 +337,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/navbar.js" />
-    <entry file="file://$PROJECT_DIR$/html/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -349,23 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/axiosGet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <marker date="1514921954513" expanded="true" signature="23:267" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="85:170" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="204:264" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="287:573" ph="{&quot;el&quot;: '##app'...}" />
-            <marker date="1514921954513" expanded="true" signature="315:342" ph="{&quot;results&quot;: ''...}" />
-            <marker date="1514921954513" expanded="true" signature="369:401" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="416:571" ph="{...}" />
-            <marker date="1514921954513" expanded="true" signature="448:565" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/story.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -387,14 +391,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <marker date="1514931129851" expanded="true" signature="58:1435" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="283:451" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="522:1428" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="562:1313" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="596:706" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="740:874" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="908:980" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="1014:1085" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="1119:1191" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="1225:1299" ph="..." />
+            <marker date="1514931129851" expanded="true" signature="1343:1417" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/comment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1514923068878" expanded="true" signature="31:1289" ph="..." />
+            <marker date="1514923068878" expanded="false" signature="38:740" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="255:373" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="747:1281" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="834:844" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="888:1156" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="937:1149" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="947:1004" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1039:1140" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1060:1073" ph="..." />
+            <marker date="1514923068878" expanded="true" signature="1165:1231" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/axiosGet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1514931317957" expanded="true" signature="23:267" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="85:170" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="204:264" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="286:572" ph="{&quot;el&quot;: '##app'...}" />
+            <marker date="1514931317957" expanded="true" signature="314:341" ph="{&quot;results&quot;: ''...}" />
+            <marker date="1514931317957" expanded="true" signature="368:400" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="415:570" ph="{...}" />
+            <marker date="1514931317957" expanded="true" signature="447:564" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/axiosPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
