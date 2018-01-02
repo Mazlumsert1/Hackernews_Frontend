@@ -1,5 +1,3 @@
-//import axios from 'axios';
-
 function axiosGet(url) {
     return axios.get(url)
         .then(function (response) {
@@ -24,11 +22,8 @@ var vm = new Vue({
         loadData: function () {
             this.results = 'Loading ...';
 
-            // Behøver ikke disse to linjer
-            //var vm = this;
-            //vm.results = null;
-
             axiosGet(apiUrl).then(data => vm.results = data);
+
         }
     }
 });
